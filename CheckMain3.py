@@ -13,6 +13,7 @@ def my_function():
     imgBackground[44:44+633,808:808+414] = imgModeList[modeType]
 
 # Initialize Firebase
+#Realtime database
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
    'databaseURL' :"https://faceattendancerealtime-a8879-default-rtdb.firebaseio.com/",
